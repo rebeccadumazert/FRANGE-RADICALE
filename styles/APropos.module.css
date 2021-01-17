@@ -1,0 +1,13 @@
+.container {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.description {
+  font-family: 'HiroshigeStd';
+  font-size: 46px;
+  text-align: center;
+  margin: 150px;
+}

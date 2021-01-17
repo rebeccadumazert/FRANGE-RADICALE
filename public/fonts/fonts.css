@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'HiroshigeStd-Bold';
+  src: url('./HiroshigeStd-Bold/HiroshigeStd-Bold.otf');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HiroshigeStd';
+  src: url('./HiroshigeStd-Book/HiroshigeStd-Book.otf');
+}

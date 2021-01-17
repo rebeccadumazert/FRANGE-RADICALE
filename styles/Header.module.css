@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.container li {
+  color: black;
+  font-family: 'HiroshigeStd-Bold';
+  display: inline;
+  margin-right: 10px;
+}
+
+.icon {
+  height: 15px;
+  margin-left: 10px;
+}
+
+.headerMenu {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.logoStyle {
+  margin: 20px 0px 0px 20px;
+  height: 60px;
+}
