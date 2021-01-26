@@ -1,0 +1,24 @@
+.container {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.contactUs {
+  margin: 100px;
+  text-align: center;
+}
+
+.bold {
+  font-family: 'HiroshigeStd-Bold';
+  font-size: x-large;
+  margin-bottom: 0;
+}
+
+.book {
+  font-family: 'HiroshigeStd';
+  font-size: large;
+  font-style: italic;
+}
+

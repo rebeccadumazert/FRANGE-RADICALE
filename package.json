@@ -11,7 +11,8 @@
     "next": "^10.0.0",
     "next-images": "^1.6.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-map-gl": "^6.0.3"
   },
   "devDependencies": {
     "eslint": "^7.17.0",

@@ -1,0 +1,27 @@
+.salonInfo {
+  font-family: 'HiroshigeStd';
+  padding: 50px 0px 0px 0px;
+}
+
+.italic {
+  font-style: italic;
+  text-align: start;
+}
+
+.socialNetwork {
+  list-style-type: none;
+  text-align: start;
+}
+
+.end {
+  padding-left: 35px;
+  padding-bottom: 5px;
+  text-align: start;
+}
+
+.containerImg {
+  width: 600px;
+}
+.containerImg img {
+  width: 100%;
+}

@@ -6,20 +6,26 @@
 }
 
 .container li {
-  color: black;
   font-family: 'HiroshigeStd-Bold';
   display: inline;
-  margin-right: 10px;
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
 }
 
 .icon {
   height: 15px;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .headerMenu {
   margin-top: 40px;
   margin-right: 20px;
+}
+
+.headerMenu a {
+  color: black;
+  text-decoration: none;
 }
 
 .logoStyle {

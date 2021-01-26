@@ -1,20 +1,29 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import facebook from '../public/images/facebookneg.png'
+import instagram from '../public/images/instagramneg.png'
 import styles from '../styles/Home.module.css'
-import { useRouter } from 'next/router'
+import twitter from '../public/images/twitterneg.png'
 
 export function Home() {
+  const { headerHomeContainer, icon } = styles
   return (
     <div>
-      <ul className={styles.headerHomeContainer}>
+      <ul className={headerHomeContainer}>
         <li>
-          <Link href='/aPropos'>
-            <a>Home</a>
-          </Link>
+          <Link href='/aPropos'>A propos</Link>
         </li>
-        <li>Contact</li>
-        <li>Galerie</li>
-        <li>Réseaux sociaux</li>
+        <li>
+          <Link href='/contact'>Contact</Link>
+        </li>
+        <li>
+          <Link href='/galerie'>Galerie</Link>
+        </li>
+        <li>
+          <img src={instagram} className={icon} alt='instagram icon' />
+          <img src={facebook} className={icon} alt='facebook icon' />
+          <img src={twitter} className={icon} alt='twitter icon' />
+        </li>
       </ul>
       <div className={styles.gif}>
         <Image
