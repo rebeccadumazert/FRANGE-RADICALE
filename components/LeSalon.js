@@ -29,9 +29,9 @@ function Salon() {
           </tr>
         </tbody>
       </table>
-      {/* <div className={style.containerImg}>
+      <div className={style.containerImg}>
         <img src={devantureFrangeRad} alt='' />
-      </div> */}
+      </div>
     </div>
   )
 }

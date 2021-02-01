@@ -1,0 +1,28 @@
+.container {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.instaFeedContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 300px;
+  margin: 100px 300px 0px 300px;
+}
+
+.instaPicture {
+  width: 100%;
+}
+
+.instaPicture > img {
+  width: 100%;
+}
+
+.containerInstaPix {
+  padding: 5px;
+  flex: 0 0 29.333333%;
+}

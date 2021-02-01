@@ -22,3 +22,13 @@
   font-style: italic;
 }
 
+.containerFormSalon {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .containerFormSalon {
+    flex-direction: column;
+  }
+}

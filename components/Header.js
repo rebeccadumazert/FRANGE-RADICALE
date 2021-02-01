@@ -4,11 +4,18 @@ import logo from '../public/images/FR_logo.png'
 import style from '../styles/Header.module.css'
 
 export function Header() {
-  const { container, logoContainer, headerMenu, icon, logoStyle } = style
+  const { container, logoContainer, headerMenu, logoStyle } = style
   return (
     <div className={container}>
       <div className={logoContainer}>
-        <img className={logoStyle} src={logo} alt='' />
+        <Link href='/'>
+          <img
+            style={{ cursor: 'pointer' }}
+            className={logoStyle}
+            src={logo}
+            alt=''
+          />
+        </Link>
       </div>
 
       <ul className={headerMenu}>

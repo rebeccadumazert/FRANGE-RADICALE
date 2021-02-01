@@ -20,7 +20,8 @@
 }
 
 .containerImg {
-  width: 600px;
+  margin: 20px 0px;
+  width: 400px;
 }
 .containerImg img {
   width: 100%;

@@ -1,18 +1,16 @@
 import Form from '../components/Form'
+import Head from 'next/head'
 import { Header } from '../components/Header'
 import Salon from '../components/LeSalon'
 import img from '../public/images/fond_dégradé_long.png'
 import style from '../styles/Contact.module.css'
 
 function Contact() {
-  const { container } = style
   return (
-    <div
-      className={container}
-      style={{
-        backgroundImage: 'url(' + img + ')',
-      }}
-    >
+    <div>
+      <Head>
+        <style>{globalStyle}</style>
+      </Head>
       <Header></Header>
       <div className={style.contactUs}>
         <hr />
@@ -24,18 +22,20 @@ function Contact() {
           10h à 18h.
         </p>
         <hr />
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div
+          className={style.containerFormSalon}
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
           <Salon></Salon>
           <Form></Form>
         </div>
       </div>
-      <style jsx global>{`
-        body {
-          height: 100%;
-          margin: 0;
-        }
-      `}</style>
     </div>
   )
 }
+const globalStyle = `
+body {
+    background-image: url(${img})
+}
+`
 export default Contact
