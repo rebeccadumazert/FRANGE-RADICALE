@@ -2,7 +2,7 @@ import Form from '../components/Form'
 import Head from 'next/head'
 import { Header } from '../components/Header'
 import Salon from '../components/LeSalon'
-import img from '../public/images/fond_dégradé_long.png'
+import img from '../public/images/bg3.png'
 import style from '../styles/Contact.module.css'
 
 function Contact() {
@@ -27,7 +27,6 @@ function Contact() {
           style={{ display: 'flex', justifyContent: 'center' }}
         >
           <Salon></Salon>
-          <Form></Form>
         </div>
       </div>
     </div>

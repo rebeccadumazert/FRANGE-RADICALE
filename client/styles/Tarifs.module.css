@@ -1,0 +1,28 @@
+.tableContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.tableContainer > table {
+  margin: 30px 30px 30px 0px;
+}
+
+.tableContainer > table > tbody > tr > td {
+  padding-left: 20px;
+  padding-bottom: 8px;
+  font-size: 1.5em;
+}
+.verticalHr {
+  border: none;
+  border-left: 1.5px dotted black;
+  margin: 30px 0px;
+}
+
+.container {
+  font-family: 'HiroshigeStd-Bold';
+  margin: 100px 150px;
+}
+.container > p {
+  text-align: center;
+  font-size: 1.5em;
+}

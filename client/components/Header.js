@@ -20,7 +20,7 @@ export function Header() {
 
       <ul className={headerMenu}>
         <li>
-          <Link href='/aPropos'>A propos</Link>
+          <Link href='/aPropos'>À propos</Link>
         </li>
         <li>
           <Link href='/tarifs'>Tarifs</Link>
@@ -29,7 +29,7 @@ export function Header() {
           <Link href='/contact'>Contact</Link>
         </li>
         <li>
-          <Link href='/galerie'>Galerie</Link>
+          <Link href='/instagram'>Galerie</Link>
         </li>
         <SocialNetwork></SocialNetwork>
       </ul>

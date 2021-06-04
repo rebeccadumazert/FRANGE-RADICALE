@@ -1,6 +1,16 @@
 .salonInfo {
   font-family: 'HiroshigeStd';
+  display: flex;
   padding: 50px 0px 0px 0px;
+}
+
+.leSalon{
+  margin: 0px 30px
+}
+
+.leSalon > p {
+  font-size: 35px;
+  margin: 0 0 30px;
 }
 
 .italic {
@@ -20,7 +30,7 @@
 }
 
 .containerImg {
-  margin: 20px 0px;
+  margin: 0 30px;
   width: 400px;
 }
 .containerImg img {

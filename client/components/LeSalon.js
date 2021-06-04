@@ -5,6 +5,10 @@ import style from '../styles/Salon.module.css'
 function Salon() {
   return (
     <div className={style.salonInfo}>
+      <div className={style.containerImg}>
+        <img src={devantureFrangeRad} alt='' />
+      </div>
+      <div className={style.leSalon}>
       <p>Le salon</p>
       <table>
         <tbody>
@@ -29,9 +33,8 @@ function Salon() {
           </tr>
         </tbody>
       </table>
-      <div className={style.containerImg}>
-        <img src={devantureFrangeRad} alt='' />
       </div>
+
     </div>
   )
 }

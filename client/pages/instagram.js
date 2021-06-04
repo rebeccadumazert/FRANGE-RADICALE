@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import { Header } from '../components/Header'
 import Instagram from 'instagram-web-api'
 import InstagramFeed from '../components/InstagramFeed'
-import img from '../public/images/fond_dégradé_long.png'
+import img from '../public/images/bg2.png'
 
 function Galerie({ instagramPosts }) {
   const instaSliced = instagramPosts.slice(0, 9)
@@ -10,6 +11,7 @@ function Galerie({ instagramPosts }) {
       <Head>
         <style>{globalStyle}</style>
       </Head>
+      <Header></Header>
       <InstagramFeed instagramPosts={instaSliced} />
     </>
   )

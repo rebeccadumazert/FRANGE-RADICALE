@@ -1,13 +1,13 @@
-import { Header } from '../components/Header'
 import img from '../public/images/fond_dégradé_long.png'
 import style from '../styles/instagramFeed.module.css'
 
 export default function InstagramFeed({ instagramPosts }) {
+  console.log(instagramPosts, 'coucou')
   return (
     <div>
-      <Header></Header>
       <div className={style.instaFeedContainer}>
         {instagramPosts.map(({ node }, i) => {
+          console.log(node.shortcode, 'wsh')
           return (
             <div className={style.containerInstaPix} key={i}>
               <a

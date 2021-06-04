@@ -25,7 +25,7 @@ function Form() {
         setMailSent(result.data.sent)
       })
       .catch((error) => setError(error.message))
-    console.log(result.data.sent)
+    console.log(result.data.sent, error)
   }
   return (
     <div
