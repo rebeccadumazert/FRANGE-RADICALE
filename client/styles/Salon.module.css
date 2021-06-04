@@ -4,8 +4,8 @@
   padding: 50px 0px 0px 0px;
 }
 
-.leSalon{
-  margin: 0px 30px
+.leSalon {
+  margin: 0px 30px;
 }
 
 .leSalon > p {
@@ -27,6 +27,19 @@
   padding-left: 35px;
   padding-bottom: 5px;
   text-align: start;
+}
+
+.mail {
+  /* text-decoration: none !important; */
+  color: black !important;
+}
+
+.title {
+  padding-left: 35px;
+  padding-bottom: 5px;
+  text-align: start;
+  font-family: 'HiroshigeStd-Bold';
+  font-size: x-large;
 }
 
 .containerImg {

@@ -13,7 +13,7 @@ function Contact() {
       </Head>
       <Header></Header>
       <div className={style.contactUs}>
-        <hr />
+        {/* <div className={style.blackLine}></div> */}
         <p className={style.bold}>
           Pour prendre rendez-vous, appelez-nous au 09.83.76.37.26
         </p>
@@ -21,7 +21,7 @@ function Contact() {
           Nous sommes ouverts du mardi au vendredi de 9h à 20h, et le samedi de
           10h à 18h.
         </p>
-        <hr />
+        <div className={style.blackLine}></div>
         <div
           className={style.containerFormSalon}
           style={{ display: 'flex', justifyContent: 'center' }}

@@ -9,32 +9,41 @@ function Salon() {
         <img src={devantureFrangeRad} alt='' />
       </div>
       <div className={style.leSalon}>
-      <p>Le salon</p>
-      <table>
-        <tbody>
-          <tr>
-            <td className={style.italic}>Adresse</td>
+        <table>
+          <tbody>
+            <tr>
+              <td className={style.italic}></td>
+              <td className={style.title}>Le salon</td>
+            </tr>
+            <tr>
+              <td className={style.italic}>Adresse</td>
 
-            <td className={style.end}>17, rue Carducci 75019 Paris</td>
-          </tr>
-          <tr>
-            <td className={style.italic}>Email</td>
-            <td className={style.end}>frangeradicale@gmail.com</td>
-          </tr>
-          <tr>
-            <td className={style.italic}>Téléphone</td>
-            <td className={style.end}>09.83.76.37.26</td>
-          </tr>
-          <tr>
-            <td className={style.socialNetwork}>
-              <SocialNetwork></SocialNetwork>
-            </td>
-            <td className={style.end}>@frangeradicale</td>
-          </tr>
-        </tbody>
-      </table>
+              <td className={style.end}>17, rue Carducci 75019 Paris</td>
+            </tr>
+            <tr>
+              <td className={style.italic}>Email</td>
+              <td className={style.end}>
+                <a
+                  className={style.mail}
+                  href='mailto:frangeradicale@gmail.com'
+                >
+                  frangeradicale@gmail.com
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td className={style.italic}>Téléphone</td>
+              <td className={style.end}>09.83.76.37.26</td>
+            </tr>
+            <tr>
+              <td className={style.socialNetwork}>
+                <SocialNetwork></SocialNetwork>
+              </td>
+              <td className={style.end}>@frangeradicale</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-
     </div>
   )
 }

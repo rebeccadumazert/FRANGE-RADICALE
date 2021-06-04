@@ -11,7 +11,8 @@ function Tarifs() {
       </Head>
       <Header></Header>
       <div className={style.container}>
-        <hr />
+        <p>Pour un devis personnalisé, contactez-nous par mail ou téléphone.</p>
+        <div className={style.blackLine}></div>
         <div className={style.tableContainer}>
           <table>
             <tbody>
@@ -78,8 +79,7 @@ function Tarifs() {
             </tbody>
           </table>
         </div>
-        <hr />
-        <p>Pour un devis personnalisé, contactez-nous par mail ou téléphone.</p>
+        <div className={style.blackLine}></div>
       </div>
     </>
   )
